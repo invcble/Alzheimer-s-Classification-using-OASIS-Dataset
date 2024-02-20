@@ -10,7 +10,7 @@ The dataset used for this project is the OASIS Alzheimer’s Detection Dataset, 
 
 The project implements various machine learning models to classify Alzheimer's progression:
 
-- **Click here for the results**: [https://github.com/invcble/LeBow-GA]
+- [**Click here for detailed results**](https://github.com/invcble/Alzheimer-s-Classification-using-OASIS-Dataset/blob/6a36a896b1e88f9f232883aab4faa0174e0fd1ee/RESULTS.txt)
 
 
 ## Setup and Running the Project
