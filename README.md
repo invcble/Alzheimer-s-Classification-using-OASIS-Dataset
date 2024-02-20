@@ -10,7 +10,10 @@ The dataset used for this project is the OASIS Alzheimer’s Detection Dataset, 
 
 The project implements various machine learning models to classify Alzheimer's progression:
 
+- [**Click here for source codes**](https://github.com/invcble/Alzheimer-s-Classification-using-OASIS-Dataset/tree/c3b38a183a95d75954925389a3b73099e85a1fa1/Python%20source%20codes)
+- [**Click here for confusion matrix**](https://github.com/invcble/Alzheimer-s-Classification-using-OASIS-Dataset/tree/c3b38a183a95d75954925389a3b73099e85a1fa1/Confusion%20Matrix)
 - [**Click here for detailed results**](https://github.com/invcble/Alzheimer-s-Classification-using-OASIS-Dataset/blob/6a36a896b1e88f9f232883aab4faa0174e0fd1ee/RESULTS.txt)
+- [**Click here for project paper**](https://github.com/invcble/Alzheimer-s-Classification-using-OASIS-Dataset/blob/c3b38a183a95d75954925389a3b73099e85a1fa1/Final_Project_Paper_CS_613.pdf)
 
 
 ## Setup and Running the Project
