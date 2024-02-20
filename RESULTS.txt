@@ -1,4 +1,4 @@
-## Models and Accuracy
+## Models and Accurac
 
 The following tables summarize the performance of different machine learning models on the OASIS dataset for Alzheimer's classification. We have processed the images at two resolutions (64x32 and 128x64) and applied different preprocessing techniques such as Blur and Canny edge detection.
 
