@@ -1,6 +1,6 @@
 # Alzheimer’s Classification using OASIS Dataset
 
-This project was developed as part of a research initiative at Drexel University, Philadelphia, PA, between November and December 2023. It focuses on leveraging machine learning models to classify Alzheimer's disease progression using the OASIS Alzheimer’s Detection Dataset. This dataset comprises 80,000 brain MRI images of 461 patients and aims to classify Alzheimer's progression based on Clinical Dementia Rating (CDR) values.
+This project was developed as part of Machine Learning (CS 613) course requirement at Drexel University, Philadelphia, PA, between November and December 2023. It focuses on leveraging built-from-scratch machine learning models to classify Alzheimer's disease progression using the OASIS Alzheimer’s Detection Dataset. This dataset comprises 80,000 brain MRI images of 461 patients and aims to classify Alzheimer's progression based on Clinical Dementia Rating (CDR) values.
 
 ## Dataset
 
@@ -10,9 +10,8 @@ The dataset used for this project is the OASIS Alzheimer’s Detection Dataset, 
 
 The project implements various machine learning models to classify Alzheimer's progression:
 
-- **Logistic Regression and LDA**: Implemented from scratch, achieving 81% and 73% accuracy, respectively, for binary classification.
-- **Multiclass Analysis**: Utilized KNN and Naive Bayes models with image preprocessing techniques such as Blur and Canny edge detection, achieving a peak accuracy of 73% with KNN using Canny edge.
-- **Custom Models and Ensembling**: Developed custom one vs. one Logistic Regression and LDA models, attaining 84% and 78% accuracy, respectively. An ensemble of these models achieved a final accuracy of 86% for Multi-Class Classification.
+- **Click here for the results**: [https://github.com/invcble/LeBow-GA]
+
 
 ## Setup and Running the Project
 
@@ -27,14 +26,6 @@ This project is designed to run on Google Colab, utilizing Google Drive for data
 
 This project requires a Google Colab environment for execution. Specific library dependencies will be automatically handled by the notebook. Ensure you have access to Google Drive for storing and accessing the dataset.
 
-## Contributions
-
-We welcome contributions from the community, including improvements to the code, suggestions on model optimization, and enhancements to the project's overall methodology. Please submit a pull request or open an issue to discuss your ideas.
-
-## License
-
-This project is open-sourced under the MIT License. See the LICENSE file for more details.
-
 ## Acknowledgments
 
-We would like to thank Drexel University for supporting this research project and the creators of the OASIS dataset for providing a valuable resource for Alzheimer's research.
+We would like to thank Professor Mathew Burlick, Drexel University for supporting this academic project and the creators of the OASIS dataset for providing a valuable resource for Alzheimer's research.
