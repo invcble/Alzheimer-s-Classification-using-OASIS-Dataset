@@ -1,0 +1,54 @@
+## Models and Accuracy
+
+The following tables summarize the performance of different machine learning models on the OASIS dataset for Alzheimer's classification. We have processed the images at two resolutions (64x32 and 128x64) and applied different preprocessing techniques such as Blur and Canny edge detection.
+
+### Binary Classification
+
+| Model               | Preprocessing | Accuracy (64x32) | Accuracy (128x64) |
+|---------------------|---------------|------------------|-------------------|
+| LDA (PCA)           | Normal        | 70.46%           | 77.85%            |
+| Logistic Regression | Normal        | 72.92%           | 75.08%            |
+
+### One vs. One Classification
+
+| Model               | Preprocessing | Accuracy (64x32) | Accuracy (128x64) |
+|---------------------|---------------|------------------|-------------------|
+| LDA (PCA)           | Normal        | 75.62%           | 77.47%            |
+| LDA (PCA)           | Blur          | 73.61%           | 76.08%            |
+| LDA (PCA)           | Canny         | 66.82%           | 61.27%            |
+| Logistic Regression | Normal        | 81.94%           | 82.72%            |
+| Logistic Regression | Blur          | 80.86%           | 81.79%            |
+| Logistic Regression | Canny         | 72.99%           | 77.47%            |
+
+### Multi-Class Classification
+
+#### Multi-class LDA (PCA)
+
+| Preprocessing | Accuracy (64x32) | Accuracy (128x64) |
+|---------------|------------------|-------------------|
+| Normal        | 46.54%           | 49.00%            |
+| Blur          | 45.01%           | 47.93%            |
+| Canny         | 47.00%           | 48.69%            |
+
+#### Naïve Bayes
+
+| Preprocessing | Accuracy (64x32) | Accuracy (128x64) |
+|---------------|------------------|-------------------|
+| Normal        | 66.51%           | 66.51%            |
+| Blur          | 68.36%           | 69.12%            |
+| Canny         | 59.75%           | 59.60%            |
+
+#### KNN
+
+| Preprocessing | Accuracy (64x32) | Accuracy (128x64) |
+|---------------|------------------|-------------------|
+| Normal        | 62.06%           | 62.22%            |
+| Blur          | 61.60%           | 62.06%            |
+| Canny         | 76.04%           | 78.03%            |
+
+### Ensemble Model Performance
+
+| Resolution | Accuracy  | Precision | Recall  | F1-score |
+|------------|-----------|-----------|---------|----------|
+| 64x32      | 82.72%    | 83.57%    | 82.72%  | 83.14%   |
+| 128x64     | 83.18%    | 83.77%    | 83.18%  | 83.48%   |
